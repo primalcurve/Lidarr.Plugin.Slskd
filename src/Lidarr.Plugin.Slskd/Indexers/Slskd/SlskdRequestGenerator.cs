@@ -60,7 +60,7 @@ namespace NzbDrone.Core.Indexers.Slskd
         public IndexerPageableRequestChain GetRecentRequests()
         {
             var pageableRequests = new IndexerPageableRequestChain();
-            pageableRequests.Add(GetRequests("Silent Partner Chances", searchTimeout: 5000));
+            pageableRequests.Add(GetRequests("Chances", searchTimeout: 5000));
             return pageableRequests;
         }
 
